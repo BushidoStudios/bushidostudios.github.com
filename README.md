@@ -1,2 +1,2 @@
-# bushidostudios.github.com
+# bushidostudios.github.io
 Main Site for Bushido Studios

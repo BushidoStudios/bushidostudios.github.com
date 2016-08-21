@@ -11,14 +11,8 @@ var app = angular.module('app', ['ngMaterial', 'ngRoute'])
       controller: 'portfolioCtrl',
       controllerAs: 'portfolio'
     })
-    .when('/404', {
-      templateUrl: 'templates/404.html'
-    })
-    .when('/500', {
-      templateUrl: 'templates/500.html'
-    })
     .otherwise({
-      redirectTo: '/404'
+      templateUrl: 'templates/404.html'
     });
     
     $locationProvider.html5Mode({

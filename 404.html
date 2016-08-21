@@ -2,8 +2,8 @@
 <html>
     <head>
         <script type="text/javascript">
-            console.log(document.location);
-            //document.location.href = 'http://52.28.104.181:8080/Wizard/Wizz' + document.location.search
+            console.log(document.location.pathname.substr(1));
+            // document.location.href = document.location.origin + '/#' + document.location.pathname.substr(1);
         </script>
     </head>
 </html>

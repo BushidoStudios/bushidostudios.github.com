@@ -6,15 +6,15 @@ var app = angular.module('app', ['ngMaterial', 'ngRoute'])
       controller: 'homeCtrl',
       controllerAs: 'home'
     })
-    .when('portfolio/:portfolioId/', {
+    .when('/portfolio/:portfolioId/', {
       templateUrl: 'templates/portfolio.html',
       controller: 'portfolioCtrl',
       controllerAs: 'portfolio'
     })
-    .when('404', {
+    .when('/404', {
       templateUrl: 'templates/404.html'
     })
-    .when('500', {
+    .when('/500', {
       templateUrl: 'templates/500.html'
     })
     .otherwise({

@@ -286,12 +286,31 @@
 }
 
 .mapitem {
-    color: #ffffff;
     font-family: FGDC;
     font-size: 28px;
 }
 
 .address {
-    color: #ffffff;
+    color: #999999;
     font-size: 22px;
+}
+
+.mapitem a {
+    color: #cccccc !important;
+    text-decoration: none;
+}
+
+.mapitem a:hover {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+.address a {
+    color: #999999 !important;
+    text-decoration: none;
+}
+
+.address a:hover{
+    color: #ffffff !important;
+    text-decoration: none;
 }

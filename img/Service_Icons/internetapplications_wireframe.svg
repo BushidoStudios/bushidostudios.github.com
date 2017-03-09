@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="200px" height="200px" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve">
+<style>
+	*{fill:#ffffff;}
+</style>
+<g>
+	<g>
+		<path fill="#181818" d="M169.14,103.721H30.861V57.567H169.14V103.721z M36.881,97.701h126.238V63.587H36.881V97.701z"/>
+		<g>
+			<rect x="89.298" y="109.638" fill="#181818" width="21.404" height="6.02"/>
+			<rect x="55.876" y="109.638" fill="#181818" width="21.405" height="6.02"/>
+			<rect x="122.721" y="109.638" fill="#181818" width="21.404" height="6.02"/>
+		</g>
+		<rect x="77.281" y="45.63" fill="#181818" width="45.439" height="6.02"/>
+	</g>
+	<g>
+		<rect x="96.987" y="124.582" fill="#181818" width="6.021" height="29.27"/>
+		<path fill="#181818" d="M118.441,187.72H81.558v-36.878h36.883V187.72z M87.579,181.699h24.843v-24.838H87.579V181.699z"/>
+		<rect x="93.311" y="166.271" fill="#181818" width="13.378" height="6.02"/>
+	</g>
+	<g>
+		<path fill="#181818" d="M200,172.29h-36.881v-36.88H200V172.29z M169.14,166.271h24.84V141.43h-24.84V166.271z"/>
+		<rect x="174.871" y="150.842" fill="#181818" width="13.378" height="6.02"/>
+		<polygon fill="#181818" points="166.129,156.861 137.771,156.861 137.771,124.582 143.79,124.582 143.79,150.842 166.129,150.842 
+					"/>
+	</g>
+	<g>
+		<path fill="#181818" d="M36.881,172.29H0v-36.88h36.881V172.29z M6.02,166.271h24.841V141.43H6.02V166.271z"/>
+		<rect x="11.753" y="150.842" fill="#181818" width="13.378" height="6.02"/>
+		<polygon fill="#181818" points="62.231,156.861 33.871,156.861 33.871,150.842 56.211,150.842 56.211,124.582 62.231,124.582 		
+			"/>
+	</g>
+	<g>
+		<path fill="#181818" d="M169.14,127.592H30.861V33.693H169.14V127.592z M36.881,121.572h126.238V39.713H36.881V121.572z"/>
+		<path fill="#181818" d="M169.14,39.713H30.861V12.28H169.14V39.713z M36.881,33.693h126.238V18.301H36.881V33.693z"/>
+		<g>
+			<rect x="45.574" y="22.988" fill="#181818" width="6.02" height="6.02"/>
+			<rect x="57.611" y="22.988" fill="#181818" width="6.02" height="6.02"/>
+			<rect x="69.651" y="22.988" fill="#181818" width="6.02" height="6.02"/>
+		</g>
+	</g>
+</g>
+</svg>

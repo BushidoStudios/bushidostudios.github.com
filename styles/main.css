@@ -2,6 +2,7 @@
 @font-face { font-family: FGDC; src: url("/fonts/FRADMCN.TTF"); }
 @font-face { font-family: FGB; src: url("/fonts/FRABK.TTF"); }
 @font-face { font-family: BHITC; src: url("/fonts/BRADHITC.TTF"); }
+@font-face { font-family: FGH; src: url("/fonts/FRAHVIT.TTF"); }
 
 /*        Header       */
 .navbar {
@@ -133,6 +134,18 @@
 
 /*        Who we are       */
 
+#whocarousel {
+    margin-top: 95px;
+    margin-left: 13px;
+    width: 450px;
+}
+
+.carouselcover {
+    height: 400px;
+    position: absolute;
+    margin: 80px auto;
+}
+
 .whoweare {
     height: 600px;
 }
@@ -242,22 +255,22 @@
 /*        Footer       */
 
 #footfb {
-    height: 50px;
+    height: 40px;
     margin-right: 30px;
 }
 
 #foottwit {
-    height: 50px;
+    height: 40px;
     margin-right: 30px;
 }
 
 #footin {
-    height: 50px;
+    height: 40px;
     margin-right: 30px;
 }
 
 #footgit {
-    height: 50px;
+    height: 40px;
 }
 
 .footpad {
@@ -313,4 +326,168 @@
 .address a:hover{
     color: #ffffff !important;
     text-decoration: none;
+}
+
+/*        Services Page       */
+
+.servicesSpacer {
+    height: 80px;
+}
+
+.paradiv2 {
+    padding: 0;
+    overflow: hidden;
+    height: 300px;
+    background-color: #000000;
+    margin: 0;
+}
+
+.parallax2 {
+    background-image: url("/img/pexels-photo-29068.jpg");
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding: 0;
+    margin: auto;
+
+}
+
+@media (min-width: 1280px) {
+    .parallax2 {
+        background-size: 1280px auto;
+    }
+}
+
+.transbox2 {
+    background-color: #000000;
+    opacity: 0.35;
+    min-height: 300px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+
+.transtext2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 100px;
+}
+
+.serdiv {
+    margin-bottom: 80px;
+}
+
+.servcomputer {
+    height: 250px;
+    display: block;
+    margin: 10px auto;
+}
+
+.listtitle {
+    font-family: FGDC;
+    font-size: 28px;
+    color: #000000;
+    margin: 20px 0;
+}
+
+.listtext {
+    font-family: FGB;
+    font-size: 16px;
+    color: #999999;
+}
+
+/*        Why Choose Us       */
+
+.paradiv3 {
+    padding: 0;
+    overflow: hidden;
+    height: 500px;
+    background-color: #000000;
+    margin: 0;
+}
+
+.parallax3 {
+    background-image: url("/img/apple-desk-designer-display.jpeg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding: 0;
+    margin: auto;
+
+}
+
+@media (min-width: 1280px) {
+    .parallax3 {
+        background-size: 1280px auto;
+    }
+}
+
+.transbox3 {
+    background-color: #000000;
+    opacity: 0.35;
+    min-height: 500px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+
+.transtext3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 100px;
+}
+
+.choosetitle {
+    font-family: FGDC;
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.choosecats {
+    margin-top: 150px;
+}
+
+.choosecat {
+    font-family: FGDC;
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+/*        Call to Action       */
+
+.calltoaction {
+    text-align: center;
+    height: 300px;
+    background-color: #950200;
+}
+
+.callinner {
+    margin-top: 100px;
+}
+
+.deploy {
+    font-family: FGH;
+    font-size: 50px;
+    display: inline;
+    color: #ffffff;
+}
+
+.getStarted {
+    font-weight: bolder;
+    font-size: 50px;
+    margin-left: 100px;
+    color: #000000;
+    width: 350px;
 }

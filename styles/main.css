@@ -59,6 +59,7 @@
     background-image: url("/img/blackbackgroundtexture.png");
     background-color: #000000;
     background-color: #ffffff;
+    margin-top: 20px;
 }
 
 .logoimg {
@@ -140,6 +141,10 @@
     width: 450px;
 }
 
+#whocarousel .carousel-indicators {
+    bottom: -60px;
+}
+
 .carouselcover {
     height: 400px;
     position: absolute;
@@ -192,15 +197,18 @@
 .services .transtext {
     text-align: center;
     color: #ffffff;
+    margin-top: 50px;
 }
 
 .servtitle {
     font-size: 50px;
     font-family: FGDC;
+    margin-bottom: 40px;
 }
 
 .servtext {
     font-size: 28px;
+    margin-bottom: 50px;
 }
 
 .serviceimg {
@@ -348,16 +356,9 @@
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% auto;
     padding: 0;
     margin: auto;
 
-}
-
-@media (min-width: 1280px) {
-    .parallax2 {
-        background-size: 1280px auto;
-    }
 }
 
 .transbox2 {
@@ -417,16 +418,10 @@
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: 100%;
     padding: 0;
     margin: auto;
 
-}
-
-@media (min-width: 1280px) {
-    .parallax3 {
-        background-size: 1280px auto;
-    }
 }
 
 .transbox3 {
@@ -490,4 +485,101 @@
     margin-left: 100px;
     color: #000000;
     width: 350px;
+}
+
+/*        About Page       */
+
+.lettertitle {
+    font-family: FGDC;
+    font-size: 30px;
+    margin-top: 80px;
+}
+
+.letterpara {
+    font-family: FGB;
+    font-size: 16px;
+    color: #999999;
+    line-height: 110%;
+}
+
+.lettersig {
+    font-family: BHITC;
+    font-size: 28px;
+    margin-top: 40px;
+}
+
+.letfb {
+    height: 20px;
+    margin-bottom: 80px;
+    margin-right: 10px;
+}
+
+.lettwit {
+    height: 20px;
+    margin-bottom: 80px;
+    margin-right: 10px;
+}
+
+.letin {
+    height: 20px;
+    margin-bottom: 80px;
+    margin-right: 10px;
+}
+
+.letgit {
+    height: 20px;
+    margin-bottom: 80px;
+}
+
+/*        Meet the Team       */
+
+.dennis {
+    height: 200px;
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.terry {
+    height: 200px;
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.names {
+    font-family: BHITC;
+    font-size: 22px;
+    color: #999999;
+    text-align: center;
+}
+
+.meet .letfb {
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+.meet .lettwit {
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+.meet .letin {
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+.meet .letgit {
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+.titles {
+    font-family: FGH;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.socialicons {
+    text-align: center;
 }

@@ -351,10 +351,11 @@
 }
 
 .parallax2 {
-    background-image: url("/img/pexels-photo-29068.jpg");
+    background-image: url("/img/people-coffee-notes-tea.jpg");
     height: 300px;
     background-attachment: fixed;
     background-position: center;
+    background-size: 120%;
     background-repeat: no-repeat;
     padding: 0;
     margin: auto;
@@ -533,18 +534,13 @@
 
 /*        Meet the Team       */
 
-.dennis {
+.personel-images {
     height: 200px;
+    border-radius: 100px;
     display: block;
     margin: auto;
     margin-top: 80px;
-}
-
-.terry {
-    height: 200px;
-    display: block;
-    margin: auto;
-    margin-top: 80px;
+    border: 1pt solid #950200;
 }
 
 .names {
@@ -582,4 +578,47 @@
 
 .socialicons {
     text-align: center;
+}
+
+
+/*        Contact Page       */
+
+.contactform {
+    height: 400px;
+    padding: 130px 0;
+    text-align: right;
+}
+
+.contactform .firstinputs {
+    text-align: left;
+}
+
+.map-container .map {
+    width: 100%;
+    height: 400px;
+}
+
+.contactform .btn-danger {
+    font-size: 25px;
+    padding: 0 40px;
+}
+
+.input {
+    font-family: FGB;
+    font-size: 24px;
+    margin-bottom: 15px;
+    border: 0;
+    background-color: #eeeeee;
+    width: 90%;
+    padding: 8px;
+}
+
+textarea.input {
+    resize: none;
+    width: 100%;
+}
+
+.input:placeholder-shown {
+    font-style: italic;
+    color: #aaaaaa;
 }

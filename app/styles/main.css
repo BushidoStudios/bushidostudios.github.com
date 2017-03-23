@@ -1,8 +1,8 @@
 /*        Fonts        */
-@font-face { font-family: FGDC; src: url("/fonts/FRADMCN.TTF"); }
-@font-face { font-family: FGB; src: url("/fonts/FRABK.TTF"); }
-@font-face { font-family: BHITC; src: url("/fonts/BRADHITC.TTF"); }
-@font-face { font-family: FGH; src: url("/fonts/FRAHVIT.TTF"); }
+@font-face { font-family: FGDC; src: url("/assets/fonts/FRADMCN.TTF"); }
+@font-face { font-family: FGB; src: url("/assets/fonts/FRABK.TTF"); }
+@font-face { font-family: BHITC; src: url("/assets/fonts/BRADHITC.TTF"); }
+@font-face { font-family: FGH; src: url("/assets/fonts/FRAHVIT.TTF"); }
 
 /*        Header       */
 .navbar {
@@ -56,7 +56,7 @@
 /*        Logo       */
 
 .logo {
-    background-image: url("/img/blackbackgroundtexture.png");
+    background-image: url("/assets/img/blackbackgroundtexture.png");
     background-color: #000000;
     background-color: #ffffff;
     margin-top: 20px;
@@ -86,12 +86,12 @@
     padding: 0;
     overflow: hidden;
     height: 600px;
-    background-image: url("/img/blackbackgroundtexture.png");
+    background-image: url("/assets/img/blackbackgroundtexture.png");
     background-color: #000000;
 }
 
 .parallax {
-    background-image: url("/img/header_stagedbackground_blacktexture_vs6.png");
+    background-image: url("/assets/img/header_stagedbackground_blacktexture_vs6.png");
     height: 800px;
     background-attachment: fixed;
     background-position: center;
@@ -180,7 +180,7 @@
 }
 
 .servimg {
-    background-image: url("/img/pexels-photo-29068.jpg");
+    background-image: url("/assets/img/pexels-photo-29068.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -351,7 +351,7 @@
 }
 
 .parallax2 {
-    background-image: url("/img/people-coffee-notes-tea.jpg");
+    background-image: url("/assets/img/people-coffee-notes-tea.jpg");
     height: 300px;
     background-attachment: fixed;
     background-position: center;
@@ -414,7 +414,7 @@
 }
 
 .parallax3 {
-    background-image: url("/img/apple-desk-designer-display.jpeg");
+    background-image: url("/assets/img/apple-desk-designer-display.jpeg");
     height: 500px;
     background-attachment: fixed;
     background-position: top;
@@ -621,4 +621,39 @@ textarea.input {
 .input:placeholder-shown {
     font-style: italic;
     color: #aaaaaa;
+}
+
+/*        404 Page       */
+
+.NFdiv{
+    background-color: #484848;
+    background-size: cover;
+    color: #ffffff;
+    font-weight: bolder;
+    height: 400px;
+}
+
+.NFtext{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.losttext{
+    font-size: 25px;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+}
+
+.cannon{
+    height: 400px;
+    margin: auto;
+    display: block;
+    
+}
+
+.NFSpacer {
+    height: 80px;
 }

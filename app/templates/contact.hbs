@@ -1,0 +1,35 @@
+<!--Title bar-->
+<div class="col-md-12 servicesSpacer"></div>
+<div class="col-md-12 paradiv2">
+    <div class="col-md-12 parallax2"></div>
+    <div class="col-md-12 transbox2"></div>
+    <div class="col-md-12 transtext2">
+        <p class="trans">Contact Us</p>
+    </div>
+</div>
+<!--Input form-->
+<div class="col-md-12">
+    <div class="container">
+        {{#if isSubmitted}}
+            <div class="confirm">
+                Thank you!
+            </div>
+        {{else}}
+            <form class="contactform">
+                <div class="col-md-6 firstinputs">
+                    {{input class="input" type="text" valueBinding=formValues.name placeholder="Name" }}
+                    {{input class="input" type="text" valueBinding=formValues.email placeholder="Email"}}
+                    {{input class="input" type="text" valueBinding=formValues.company placeholder="Company/Organization"}}
+                </div>
+                <div class="col-md-6">
+                    {{textarea class="input" rows="6" cols="30" valueBinding=formValues.message placeholder="Message"}}
+                    <button class="btn btn-danger" {{action "sendMail"}}>Submit</button>
+                </div>
+            </form>            
+        {{/if}}
+    </div>
+</div>
+<!--Map-->
+<div class="map-container container">
+    <img class="map" src="https://api.mapbox.com/styles/v1/mapbox/light-v8/static/pin-m-circle-stroked+950200(-97.7361194,30.265417)/-97.7393656,30.2663726,13,0/1200x400@2x?access_token=pk.eyJ1IjoiZGNiYXJ0bGV0dCIsImEiOiJjaXV3NTVsM2cwM3ljMm9ub3B4eXk4azY3In0.4jZ_7o2wOTY0Dc0UJiTYbw" alt="Mapbox Map of -97.7393656,30.2663726">
+</div>

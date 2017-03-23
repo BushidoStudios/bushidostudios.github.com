@@ -1,0 +1,54 @@
+<!--Navbar-->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a id="brand" class="navbar-brand" href="index.html"></a>
+    </div>
+    <ul class="nav navbar-nav">
+        <li>{{#link-to "main" class="menured"}}Reboot{{/link-to}}</li>
+        <li>{{#link-to "about" class="menuitem"}}About{{/link-to}}</li>
+        <!-- <li><a class="menuitem" href="portfolio.html">Portfolio</a></li> -->
+        <li>{{#link-to "services" class="menuitem"}}Services{{/link-to}}</li>
+        <li>{{#link-to "contact" class="menuitem"}}Contact{{/link-to}}</li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://www.facebook.com/bushidoarmy/" target="_blank"><img id="navfb" src="/assets/img/brandico_2014-04-07_facebook_303_0_000000_none.png" alt="Facebook"></a></li>
+        <li><a href="https://twitter.com/BushidoStudios" target="_blank"><img id="navtwit" src="/assets/img/foundation-icon-fonts_2015-02-16_social-twitter_303_0_000000_none.png" alt="Twitter"></a></li>
+        <li><a href="#" target="_blank"><img id="navin" src="/assets/img/brandico_2014-04-07_linkedin_303_0_000000_none.png" alt="Linked In"></a></li>
+        <li><a href="https://github.com/BushidoStudios" target="_blank"><img id="navgit" src="/assets/img/brandico_2014-04-07_github_303_0_000000_none.png" alt="GitHub"></a></li>
+    </ul>
+  </div>
+</nav>
+{{outlet}}
+ <!--footer-->
+<div class="backdrop">
+    <div class="container">
+        <div class="col-md-12 footpad"></div>
+        <div class="col-md-6">
+            <object type="image/svg+xml" data="/assets/img/BushidoStudiosLogo.svg" class="footlogo"></object><br/>
+            <a href="https://www.facebook.com/bushidoarmy/"><img id="footfb" src="/assets/img/brandico_2014-04-07_facebook_303_0_ffffff_none.png" alt="Facebook"></a>
+            <a href="https://twitter.com/BushidoStudios"><img id="foottwit" src="/assets/img/font-awesome_4-7-0_twitter_303_0_ffffff_none.png" alt="Twitter"></a>
+            <a href="#"><img id="footin" src="/assets/img/brandico_2014-04-07_linkedin_303_0_ffffff_none.png" alt="Linked In"></a>
+            <a href="https://github.com/BushidoStudios"><img id="footgit" src="/assets/img/brandico_2014-04-07_github_303_0_ffffff_none.png" alt="GitHub"></a>
+        </div>
+        <div class="col-md-6">
+            <div class="col-md-4 sitemap">
+                <ul class="map">
+                    <li class="mapitem">{{#link-to "main"}}Reboot{{/link-to}}</li>
+                    <li class="mapitem">{{#link-to "about"}}About{{/link-to}}</li>
+                    <!-- <li class="mapitem"><a href="portfolio.html">Portfolio</a></li> -->
+                    <li class="mapitem">{{#link-to "services"}}Services{{/link-to}}</li>
+                    <li class="mapitem">{{#link-to "contact"}}Contact{{/link-to}}</li>
+                </ul>
+            </div>
+            <div class="col-md-8 addsec">
+                <p class="address">Bushido Studios, LLC</p>
+                <p class="address">507 Sabine St. #808</p>
+                <p class="address">Austin, Texas 78701</p>
+                <p class="address">1-512-584-3924</p>
+                <p class="address"><a href="mailto:contact@bushidostudios.org">contact@bushidostudios.org</a></p>
+            </div>
+        </div>
+        <div class="col-md-12 footpad"></div>
+    </div>
+</div>

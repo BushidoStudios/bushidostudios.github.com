@@ -380,6 +380,10 @@
     margin-top: 100px;
 }
 
+.choosetrans {
+    opacity: 0.5 !important;
+}
+
 .serdiv {
     margin-bottom: 80px;
 }
@@ -451,13 +455,25 @@
 }
 
 .choosecats {
-    margin-top: 150px;
+    margin-top: 0px;
 }
 
 .choosecat {
     font-family: FGDC;
     text-align: center;
     font-size: 30px;
+    color: #ffffff;
+}
+
+.choosesubtitle {
+    font-size: 30px;
+    font-family: FGDC;
+    color: #ffffff;
+}
+
+.choosepara {
+    font-size: 16px;
+    font-family: FGB;
     color: #ffffff;
 }
 
@@ -478,12 +494,13 @@
     font-size: 50px;
     display: inline;
     color: #ffffff;
+    margin-left: 50px;
 }
 
 .getStarted {
     font-weight: bolder;
     font-size: 50px;
-    margin-left: 100px;
+    margin-right: 100px;
     color: #000000;
     width: 350px;
 }
@@ -656,4 +673,73 @@ textarea.input {
 
 .NFSpacer {
     height: 80px;
+}
+/*-----------------------*/
+/*    Mobile Versions    */
+/*-----------------------*/
+@media (max-width : 991px) {
+    
+}
+
+@media (max-width : 767px) {
+    .footer .col-xs-3{
+        padding: 0;
+    }
+    .footer .col-xs-12{
+        padding: 0;
+    }
+    .address {
+        font-size: 16px;
+    }
+    .sitemap {
+        padding-left: 0;
+    }
+    .map {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .mapitem {
+        font-size: 20px;
+        display: inline-block;
+        text-align: center;
+    }
+    .serviceimg {
+        height: 75px;
+    }
+    .btn-danger {
+        font-size: 40px;
+    }
+    .trans {
+        font-size: 45px;
+    }
+    .servtext {
+        font-size: 18px;
+    }
+    .addsec {
+        border-left: 0;
+        border-top: #ffffff 2px solid;
+        padding-top: 20px !important;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .calltoaction {
+        text-align: center;
+    }
+    .callinner {
+        margin-top: 30px;
+    }
+    .getStarted {
+        font-size: 30px;
+        display: block;
+        margin: auto;
+        width: 80%;
+    }
+    .deploy {
+        font-size: 40px;
+        margin: 0;
+    }
+    .input {
+        font-size: 16px;
+    }
 }

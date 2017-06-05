@@ -14,15 +14,13 @@ export default Ember.Controller.extend({
                 mode: 'cors',
                 body: JSON.stringify(this.get("formValues")),
             })
-            .then((res) => {
-                console.log("resetting");
+            .then(() => {
                 this.set("formValues", {});
                 this.set("isSubmitted", true);
                 setTimeout(function() {
                     this.set("isSubmitted", false);
-                }.bind(this), 4000)
-                console.log(res.json());
-            })
+                }.bind(this), 4000);
+            });
         }
     },
 });

@@ -6,6 +6,11 @@ module.exports = function(defaults) {
     // Add options here
   });
 
+  app.import({
+    development: 'vendor/bootstrap.js',
+    production:  'vendor/bootstrap.min.js'
+  });
+
   // Use `app.import` to add additional libraries to the generated
   // output files.
   //

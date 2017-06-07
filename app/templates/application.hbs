@@ -8,7 +8,15 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>                        
         </button>
-        <a id="brand" class="navbar-brand" href="index.html"></a>
+        <div class="hidden-sm hidden-md hidden-lg">
+            {{#link-to "main" id="brand" class="navbar-brand"}}
+                <object type="image/svg+xml" data="/assets/img/BushidoStudiosLogoblack.svg" class="brandimg"></object>
+            {{/link-to}}
+            <a href="https://www.facebook.com/bushidoarmy/" target="_blank"><img id="navfb" src="/assets/img/brandico_2014-04-07_facebook_303_0_000000_none.png" alt="Facebook"></a>
+            <a href="https://twitter.com/BushidoStudios" target="_blank"><img id="navtwit" src="/assets/img/foundation-icon-fonts_2015-02-16_social-twitter_303_0_000000_none.png" alt="Twitter"></a>
+            <a href="#" target="_blank"><img id="navin" src="/assets/img/brandico_2014-04-07_linkedin_303_0_000000_none.png" alt="Linked In"></a>
+            <a href="https://github.com/BushidoStudios" target="_blank"><img id="navgit" src="/assets/img/brandico_2014-04-07_github_303_0_000000_none.png" alt="GitHub"></a>
+        </div>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
@@ -18,7 +26,7 @@
             <li data-toggle="collapse" data-target=".navbar-collapse.in">{{#link-to "services" class="menuitem"}}Services{{/link-to}}</li>
             <li data-toggle="collapse" data-target=".navbar-collapse.in">{{#link-to "contact" class="menuitem"}}Contact{{/link-to}}</li>
         </ul>
-        <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav navbar-right hidden-xs">
             <li><a href="https://www.facebook.com/bushidoarmy/" target="_blank"><img id="navfb" src="/assets/img/brandico_2014-04-07_facebook_303_0_000000_none.png" alt="Facebook"></a></li>
             <li><a href="https://twitter.com/BushidoStudios" target="_blank"><img id="navtwit" src="/assets/img/foundation-icon-fonts_2015-02-16_social-twitter_303_0_000000_none.png" alt="Twitter"></a></li>
             <li><a href="#" target="_blank"><img id="navin" src="/assets/img/brandico_2014-04-07_linkedin_303_0_000000_none.png" alt="Linked In"></a></li>
@@ -28,10 +36,10 @@
   </div>
 </nav>
 {{outlet}}
- <!--footer-->
+<!--footer-->
 <div class="backdrop">
     <div class="container footer">
-        <div class="col-md-12 footpad"></div>
+        <div class="col-xs-12 footpad"></div>
         <div class="col-md-5 hidden-sm hidden-xs">
             <object type="image/svg+xml" data="/assets/img/BushidoStudiosLogo.svg" class="footlogo"></object><br/>
             <a href="https://www.facebook.com/bushidoarmy/"><img id="footfb" src="/assets/img/brandico_2014-04-07_facebook_303_0_ffffff_none.png" alt="Facebook"></a>
@@ -55,6 +63,6 @@
             <p class="address">1-512-584-3924</p>
             <p class="address"><a href="mailto:contact@bushidostudios.org">contact@bushidostudios.org</a></p>
         </div>
-        <div class="col-md-12 footpad"></div>
+        <div class="col-xs-12 footpad"></div>
     </div>
 </div>

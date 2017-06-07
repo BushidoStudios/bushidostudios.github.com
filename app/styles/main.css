@@ -16,7 +16,13 @@
 
 .navbar-brand {
     width: 100px;
+    height: 25px;
     padding: 0;
+}
+
+.brandimg {
+    height: 50px;
+    margin-left: 10px;
 }
 
 .navlogo {
@@ -381,7 +387,7 @@
 }
 
 .choosetrans {
-    opacity: 0.5 !important;
+    opacity: 0.6 !important;
 }
 
 .serdiv {
@@ -409,10 +415,15 @@
 
 /*        Why Choose Us       */
 
+.whycontainerwhy {
+    position: relative;
+    margin-top: 50px;
+}
+
 .paradiv3 {
     padding: 0;
     overflow: hidden;
-    height: 500px;
+    min-height: 500px;
     background-color: #000000;
     margin: 0;
 }
@@ -444,7 +455,6 @@
     position: absolute;
     top: 0;
     left: 0;
-    margin-top: 100px;
 }
 
 .choosetitle {
@@ -481,12 +491,15 @@
 
 .calltoaction {
     text-align: center;
-    height: 300px;
     background-color: #950200;
 }
 
 .callinner {
     margin-top: 100px;
+}
+
+.callbtn {
+    margin-bottom: 100px
 }
 
 .deploy {
@@ -678,43 +691,66 @@ textarea.input {
 /*    Mobile Versions    */
 /*-----------------------*/
 @media (max-width : 991px) {
-    
+    .deploy {
+        margin-left: 0;
+    }
 }
 
 @media (max-width : 767px) {
+    /* menu */
+    
+    .navbar {
+        min-height: 0px;
+    }
+    
+    #navfb {
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+    
+    #navtwit {
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+    
+    #navin {
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+    
+    #navgit {
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+    
+    /* footer */
+    
     .footer .col-xs-3{
         padding: 0;
     }
+    
     .footer .col-xs-12{
         padding: 0;
     }
+    
     .address {
         font-size: 16px;
     }
+    
     .sitemap {
         padding-left: 0;
     }
+    
     .map {
         padding: 0;
         margin: 0;
         text-align: center;
     }
+    
     .mapitem {
         font-size: 20px;
         display: inline-block;
         text-align: center;
-    }
-    .serviceimg {
-        height: 75px;
-    }
-    .btn-danger {
-        font-size: 40px;
-    }
-    .trans {
-        font-size: 45px;
-    }
-    .servtext {
-        font-size: 18px;
     }
     .addsec {
         border-left: 0;
@@ -723,23 +759,107 @@ textarea.input {
         margin-top: 10px;
         text-align: center;
     }
+    
+    /* main page*/
+    
+    .whoheader {
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .whoweare {
+        height: auto;
+    }
+    
+    .serviceimg {
+        height: 75px;
+    }
+    
+    .btn-danger {
+        font-size: 40px;
+    }
+    
+    .trans {
+        font-size: 45px;
+    }
+    
+    .servtext {
+        font-size: 18px;
+    }
+    
+    /* about page */
+    
+    /* services page */
+    
+    .servicesSpacer {
+        height: 50px;
+    }
+    
+    .serdiv {
+        margin-bottom: 40px;
+    }
+    
+    .servcomputer {
+        height: 125px;
+        margin-top: 40px;
+    }
+    
+    .serEven {
+        background-color: #666;
+    }
+    
+    .eventext {
+        color: #fff;
+    }
+    
+    .deploy {
+        font-size: 40px;
+        margin: 0;
+    }
+    
+    .callbtn {
+        margin-bottom: 40px;
+    }
+    
     .calltoaction {
         text-align: center;
     }
+    
     .callinner {
         margin-top: 30px;
     }
+    
     .getStarted {
         font-size: 30px;
         display: block;
         margin: auto;
         width: 80%;
     }
-    .deploy {
-        font-size: 40px;
-        margin: 0;
+    
+    .paradiv3 {
+        overflow: show;
     }
+    
+    .transtext3 {
+        position: relative;
+    }
+    
+    .choosepara {
+        margin-bottom: 30px;
+    }
+    
+    .choosesubtitle {
+        font-size: 22px;
+    }
+    
+    /* contact page */
+    
+    .contactform {
+        padding-top: 30px;
+    }
+    
     .input {
         font-size: 16px;
+        width: 100%;
     }
 }

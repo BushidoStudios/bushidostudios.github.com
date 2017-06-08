@@ -1,14 +1,14 @@
 <!--Title bar-->
-<div class="col-md-12 col-sm-12 col-xs-12 servicesSpacer"></div>
-<div class="col-md-12 col-sm-12 col-xs-12 paradiv2">
-    <div class="col-md-12 col-sm-12 col-xs-12 parallax2"></div>
-    <div class="col-md-12 col-sm-12 col-xs-12 transbox2"></div>
-    <div class="col-md-12 col-sm-12 col-xs-12 transtext2">
+<div class="col-xs-12 servicesSpacer"></div>
+<div class="col-xs-12 paradiv2">
+    <div class="col-sm-12 hidden-xs parallax2"></div>
+    <div class="col-sm-12 hidden-xs transbox2"></div>
+    <div class="col-xs-12 transtext2">
         <p class="trans">Contact Us</p>
     </div>
 </div>
 <!--Input form-->
-<div class="col-md-12 col-sm-12 col-xs-12">
+<div class="col-xs-12">
     <div class="container">
         {{#if isSubmitted}}
             <div class="confirm">
@@ -16,12 +16,12 @@
             </div>
         {{else}}
             <form class="contactform">
-                <div class="col-md-6 col-sm-6 col-xs-12 firstinputs">
+                <div class="col-sm-6 col-xs-12 firstinputs">
                     {{input class="input" type="text" value=formValues.name placeholder="Name" }}
                     {{input class="input" type="text" value=formValues.email placeholder="Email"}}
                     {{input class="input" type="text" value=formValues.company placeholder="Company/Organization"}}
                 </div>
-                <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="col-sm-6 col-xs-12">
                     {{textarea class="input" rows="6" cols="30" value=formValues.message placeholder="Message"}}
                     <button class="btn btn-danger" {{action "sendMail"}}>Submit</button>
                 </div>
